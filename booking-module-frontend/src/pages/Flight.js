@@ -1,6 +1,6 @@
 // src/pages/Flight.js
 import React from 'react';
-import FlightSearch from '../components/FlightSearch';
+import FlightSearch from '../components/FlightSearch/FlightSearch';
 
 const Flight = () => {
   return (
