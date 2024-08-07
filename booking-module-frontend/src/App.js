@@ -37,8 +37,8 @@ const App = () => {
     <div>
       <Header />
       <Banner />
+      <div className="px-32 py-14">
       <NavigationTabs />
-      <div className="p-6">
         <Routes>
           <Route path="/flight" element={<Flight ws={ws} />} />
           <Route path="/hotel" element={<Hotel ws={ws} />} />

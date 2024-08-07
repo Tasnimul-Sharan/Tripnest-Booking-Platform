@@ -197,7 +197,7 @@ const FlightSearch = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded p-6 mt-6">
+    <div className="bg-white shadow-inner rounded p-6 mt-6">
       {/* Trip Type Selector */}
       <TripTypeSelector tripType={tripType} setTripType={setTripType} />
 

@@ -5,11 +5,11 @@ import { NavLink } from 'react-router-dom';
 const tabs = [
   { name: 'Flight', icon: '✈️', path: '/flight' },
   { name: 'Hotel', icon: '🏨', path: '/hotel' },
-  { name: 'Shop', icon: '🛍️', path: '/shop' },
+  // { name: 'Shop', icon: '🛍️', path: '/shop' },
   { name: 'Holiday', icon: '🌴', path: '/holiday' },
   { name: 'Visa', icon: '🛂', path: '/visa' },
-  { name: 'Mobile Recharge', icon: '📱', path: '/mobile-recharge' },
-  { name: 'Pay Bill', icon: '💸', path: '/pay-bill' }
+  // { name: 'Mobile Recharge', icon: '📱', path: '/mobile-recharge' },
+  // { name: 'Pay Bill', icon: '💸', path: '/pay-bill' }
 ];
 
 const NavigationTabs = () => {
