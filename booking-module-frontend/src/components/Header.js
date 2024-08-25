@@ -30,7 +30,7 @@ const Header = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {['Flight', 'Hotel', 'Shop', 'Contact', 'About'].map((item) => (
+          {['Flight', 'Hotel', 'Shop', 'Contact', 'About', 'services'].map((item) => (
             <Link key={item} to={`/${item.toLowerCase()}`} className="text-sm hover:bg-[#ee5a3e] hover:text-white p-2 rounded-md font-semibold leading-6">
               {item}
             </Link>
@@ -68,7 +68,7 @@ const Header = () => {
               </button>
             </div>
             <div className="mt-6">
-              {['Projects', 'Skills', 'Blogs', 'Contact', 'About'].map((item) => (
+              {['Projects', 'Skills', 'Blogs', 'Contact', 'About', 'services'].map((item) => (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase()}`}

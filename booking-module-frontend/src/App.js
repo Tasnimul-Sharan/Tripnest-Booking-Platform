@@ -12,6 +12,7 @@ import Visa from './pages/Visa';
 import MobileRecharge from './pages/MobileRecharge';
 import PayBill from './pages/PayBill';
 import Banner from './components/Banner';
+import Services from './components/Services';
 
 const App = () => {
   const [ws, setWs] = useState(null);
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/visa" element={<Visa ws={ws} />} />
           <Route path="/mobile-recharge" element={<MobileRecharge ws={ws} />} />
           <Route path="/pay-bill" element={<PayBill ws={ws} />} />
+          <Route path="/services" element={<Services ws={ws} />} />
           <Route path="/" element={<Flight ws={ws} />} /> {/* Default Route */}
         </Routes>
       </div>
